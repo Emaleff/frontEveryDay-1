@@ -19,6 +19,9 @@ body {
   top: 0;
   left: 0;
   background: #19a1ae;
+  display: flex;
+  align-items:center;
+  justify-content: center ;
   overflow: hidden;
 }
 .oneCircle,
@@ -32,6 +35,7 @@ body {
     rgba(9, 137, 180, 0.0001) 0.78%,
     #53ffee 99.94%
   );
+  z-index: 0;
 }
 
 .oneCircle {
@@ -51,10 +55,8 @@ body {
   border-radius: 15px;
   width: 350px;
   height: 374px;
-  box-sizing: border-box;
-  position: absolute;
-  top: calc(50% - 175px);
-  left: calc(50% - 187px);
+  box-sizing: border-box; 
+  z-index: 1;
 }
 .card .cardAvatar {
   background-image: url("avatar.png");

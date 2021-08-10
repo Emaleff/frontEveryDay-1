@@ -40,3 +40,8 @@
     position: static;
   }
 }
+@media screen and (max-width: 350px) {
+.card{
+  width: 88%;
+}
+}
