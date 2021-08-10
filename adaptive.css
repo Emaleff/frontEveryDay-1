@@ -1,0 +1,42 @@
+@media screen and (max-width: 900px) {
+  .oneCircle,
+  .twoCircle {
+    width: 600px;
+    height: 600px;
+  }
+  .oneCircle {
+    top: -300px;
+    left: -300px;
+  }
+  .twoCircle {
+    bottom: -300px;
+    right: -300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .oneCircle,
+  .twoCircle {
+    width: 300px;
+    height: 300px;
+  }
+  .oneCircle {
+    top: -140px;
+    left: -140px;
+  }
+  .twoCircle {
+    bottom: -140px;
+    right: -140px;
+  }
+  .card {
+    width: 326px;
+    display: block;
+    margin: 0 auto;
+    position: static;
+  }
+  .card{
+    width: 326px;
+    display: block;
+    margin: 0 auto;
+    position: static;
+  }
+}
